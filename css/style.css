@@ -1,0 +1,106 @@
+html, body {
+    background-color: #fff;
+    
+}
+
+html {
+ /* min-height: 100%;
+  position: relative;*/
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+}
+
+/*General styles*/
+#logo{
+    display: block;
+    float: left;    
+}
+#contacto{
+    color: #fff;
+    float: right; 
+}
+#copyR{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#band-destination{
+    background-image: url(../recursos/band.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 250px;
+}
+/*inicio*/
+.carousel-inner{
+    height: 700px;
+}
+.introd{
+    text-align: center;
+}
+section h2{
+    text-align: center;
+}
+
+/*destinos*/
+table td {
+    border: 45px solid #fff;
+    color: #fff;
+    height: 320px;        
+    width: 320px;   
+    vertical-align: center;     
+}
+
+table a,table a:hover {   
+    color: #fff;    
+}
+
+.dest1{
+    background-image: url(../recursos/imagen8L-chichen.jpg);
+    background-size: cover;
+}
+.dest2{
+    background-image: url(../recursos/images36L-isla.jpg);
+    background-size: cover;
+}
+.dest3{
+    background-image: url(../recursos/images-37L-sanmiguel.jpg);
+    background-size: cover;
+}
+.dest4{
+    background-image: url(../recursos/images32L-PuertoVall_pl_oro.jpg);
+    background-size: cover;
+}
+
+.options-link{
+    padding-top: 15%;
+    width: 100%;
+    height: 100%;
+}
+
+/*destinations options*/
+.description {
+    float: left;
+    width: 60%;
+    text-align: justify;
+}
+.vd-aud{
+    float: right;
+    width: 30%;
+
+}
+
+#info1{
+    height: 1250px;
+}
+video{
+    margin-left: 15%;
+}
+.vd-aud img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+section img{
+    border-radius: 15px;
+}
